@@ -1,0 +1,135 @@
+<html>
+<head>
+  <style>
+
+  html,body {
+    height: 100%;
+    margin: 0;
+  }
+
+  .content {
+    border: 0;
+    /* margin: auto 2em; */
+    text-align: center;
+    with: 100%;
+    /* background-image:url(cupertino.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .title {
+    margin: 1em;
+  }
+  .puzzle {
+     /* background-image:url(cupertino.jpg); */
+     width:333.333;
+     height:333.333;
+     /* width:33.333%;
+     height:33.333%; */
+     background-repeat: no-repeat;
+     text-align: center;
+     vertical-align: middle;
+  }
+  .puzzle:hover {
+    opacity:0.8;
+  }
+  .piece1 {
+    background-image:url(1.jpg);
+  }
+  .piece2 {
+    background-image:url(2.jpg);
+  }
+  .piece3 {
+    background-image:url(3.jpg);
+  }
+  .piece4 {
+    background-image:url(4.jpg);
+  }
+  .piece5 {
+    background-image:url(5.jpg);
+  }
+  .piece6 {
+    background-image:url(6.jpg);
+  }
+  .piece7 {
+    background-image:url(7.jpg);
+  }
+  .piece8 {
+    background-image:url(8.jpg);
+  }
+  .piece9 {
+    background-image:url(9.jpg);
+  }
+  .tooltiptext {
+    visibility: hidden;
+    background-color: white;
+    color: #000;
+    width: 300;
+    height: 300;
+
+  }
+  .puzzle:hover .tooltiptext {
+    visibility: visible;
+    opacity:1;
+  }
+  </style>
+</head>
+
+<body>
+
+  <div class="content">
+    <div class="title">
+      庫市購買需要大家的護持。除了財敬供養，善行的供養也是非常的重要。<br/>
+      滑鼠指向每一個方塊即可一起造共業。每天做一項，即可來這裡加入您的善行。<br/>
+      希望我們一個月內，能夠將每一塊都集滿一千個。
+    </div>
+
+    <table align="center">
+      <tr>
+        <td>
+          <div class="puzzle piece9">
+            <span class="tooltiptext">
+              做三多其一：說好話，多微笑，多做事<br/>
+              <a href="https://google.com">Google</a>
+            </span>
+          </div>
+        </td>
+        <td>
+          <div class="puzzle piece8"></div>
+        </td>
+        <td>
+          <div class="puzzle piece7"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="puzzle piece6"></div>
+        </td>
+        <td>
+          <div class="puzzle piece5">
+            <span class="tooltiptext">
+              BWNC iPray<br/>
+              <a href="https://google.com">Google</a>
+            </span>
+          </div>
+        </td>
+        <td>
+          <div class="puzzle piece4"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="puzzle piece3"></div>
+        </td>
+        <td>
+          <div class="puzzle piece2"></div>
+        </td>
+        <td>
+          <div class="puzzle piece1"></div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
